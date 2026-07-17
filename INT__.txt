@@ -1,0 +1,694 @@
+Hello sir/mam
+I am Subrata i am having 6+ year of experience in software testing, I have completed my Be. Tech in 2018 at Bhubaneswar Orissa ,Than i had joined at GLOBUSSOFT Technology private Limited as Software Test Engineer and this Organization is located in Chhattisgarh, I have worked there 2years,Currently I am working as a Senior Associate at EDIFIXIO INDIA Private Limited ,it is Located in Kolkata west Bengal. My current role and responsibility is in analyzing, designing, and executing performance tests for web-based and API-based applications. My primary focus is to ensure applications meet SLA requirements for response time, throughput, scalability, and stability., as well as Monitoring System Performance than Analyzing the test Results and Identifying Performance Bottlenecks, raising defects/bugs and Tracking the bug status over Zira, Collaborating the Software, Initial gathering to finial report generation also communicated with customer ,Attending Daily Standup Called update, Weekly Review Call & Various QA related call/meeting along with AGILE process.
+1.Non functional requirement gathering
+2.Test plan preparation
+3.Scripting
+4.Test execution and Monitoring
+5.Reporting
+6.Test result and error analysis.
+
+Q. What is the method for converting concurrent users to simultaneous users?
+1.why are you looking for job change and joined tcs?
+
+I am likely looking for opportunities that offer growth, better work-life balance, new challenges, or a more fulfilling work environment
+
+"I'm looking for a job change where I can continue to grow my software testing skills, particularly in the area of Performance testing. I've been impressed by TCS's commitment to innovation and their work on cutting-edge technologies. I believe my experience in Performance testing and my eagerness to learn new tools and techniques would allow me to contribute significantly to your team. I'm also looking for a role that provides opportunities for new challenges and a chance to work on complex projects, which I believe TCS offers .
+
+2.why should we hire you?
+You can hire me because my skills, experience, and passion make me a valuable asset. I possess a strong foundation in both Performance testing and manual testing, coupled with excellent problem-solving and communication abilities. Furthermore, my drive to learn and adapt to new technologies ensures I'll be a continuous contributor to the team which i ill going to join.
+
+3.What is performance test scripting ?
+Performance testing script is a programming code specific to performance testing to automate real world user behaviour. This code contains the user actions performed by a real user on an application. Such scripts are developed with the help of performance testing tools like LoadRunner ,JMeter, Neo Load etc .
+The main purpose of performance test script is to simulate the behaviour of real world user. The virtual users or threads use a Performance test script and generate the desired load on the server . some scripts like java MQ trigger the messages to test the middleware application.
+
+Simple way to remember
+Load → normal usage
+Stress → beyond limit
+Spike → sudden change
+Endurance → long duration
+
+Seamless :Its a e-commerce application
+
+Using our application you can buy/sell the products as per the client need.
+We had almost doing our business over 13 country like: Australia, Japan, France, China, Denmark, Great beaten ,United kingdom, Germany, India etc.
+1.Using UIaaS you we can place order with various products as per the client/user need.
+2.Track the order shipping details as well as you will get the notification of your shipping details.
+3.you can check the Invoice of your current order.
+4.you can modify your order as per your requirement.
+5.you can cancel the order any time once order got placed successfully.
+6.we have some special product for which if we are going to place order with this product we have some mandatory field like : Mail id rather than registered mail id, along with end user name why you are placing order for short description.
+7.Also we have some advanced feature like if you can add some standard product for which once the product got configured the sub item will added to the cart automatically.(for example if you will add one DSC product and configured it then the sub item will added by default and total count will increased accordingly .
+8.we can check the net price & total net price of added product in to the cart.
+9.Also we can verify the external details of any product.
+10.We can returns the product as per customer needed.
+11.There is module name P&A(Price and Availability) where you can check the price details and availability details as per the given date by the end user.
+like i would like to check the availability details of an product for any future specific date ,Given the part number and date along with quantity then it will show the all details.
+=============================================================================
+Project 2
+BSL
+Using BSL you can Create Product and Document Over Data Base.
+ITS a API Project (Application Programming Interface)
+Using This you can Post, GET ,PUT, DELETE, Patch, Update.
+
+5. How do you execute JMeter tests in non-GUI mode?
+
+Answer: I use the command line for load tests:
+
+jmeter -n -t testplan.jmx -l result.jtl -e -o /path/to/report
+
+-n – non-GUI mode
+
+-t – test plan file
+
+-l – results log
+
+-e – generate dashboard report
+
+-o – output report directory
+
+What is the Output of JMeter Scripting?
+
+A .jmx file (XML-based) that contains all your test configurations.
+
+This file can be run via GUI or non-GUI (CLI) mode.
+
+jmeter -n -t myscript.jmx -l results.jtl
+
+
+1. You are testing an e commerce website and you have noticed that the data base becomes a performance bottlenecks during high traffic ,How this issue in your perform testing?
+Ans: To Address the Database performance bottlenecks in performance testing
+i> Create test scenario that simulate the high traffic periods with a focus on data base intensive actions like product searches , inventory and checkout process,
+ii>Monitor the database performance metrics such as Query execution times CPU and usages and connection pool utilization.
+
+
+1.Requirements-Test Plan-Thread Group-Sampler-Listener-Configure elements
+
+2.performance testing life cycle=Requirement gathering=Planning=preparation=execution=analysis=reporting
+
+Performance Testing Interview Question CTS
+=============================================================================================
+1.Tell me about your Role and Responsibility
+2.How to calculate 95% in JMeter
+3.what is through put
+4.How many User you have test for performance testing
+5.How to test 1000 user in performance testing in JMeter
+6.Monitoring Tool in JMeter
+===========================================================================================
+7.What is the difference between Throughput and average, Throughput and minimum and bandwidth
+8.How to analysis performance test data
+9.What is the significance of 95th percentile of performance testing
+10.How do you approach performance testing for mobile application?
+11.What are the common performance testing issue you have encounter?
+12.How do you handle performance issue during a test run?
+
+13.Types of performance testing?:
+i. Load testing: Simulates expected load on the system to measure performance.
+ii. Stress Testing: Pushes the system beyond its limits to identity breaking points
+iii. Spike Testing: To check/Test how system handles sudden spikes traffic/Suddenly increase load
+iv. Endurance Testing: Checks system performance over an extended period of time.
+
+14.Command for GUI and Non GUI mode in jmetere?
+15.How to calculate percentile in jemeter?
+16.How to add certificate in jmeter?
+17.how write jmeter script?
+18.What are monitoring tool used for performance testing?
+19.How debugging in jmeter?
+20.How to extend the jmeter certificate expire date?
+21.What s the difference between concurrent user and simultaneous user?
+Concurrent User: User active on the system at the same time.
+Simultaneous User: User performing actions at the exact same moment.
+
+Think Time: Delay between user actions to simulate real behavior(login-Place order-check status)
+Pacing: Time between the end if one iteration and the start the next
+
+22.How do you analyze performance test results?
+ans: Looks for response time, resource bottlenecks, error trends ,Through puts System metrics(cpu, memory)Under load .
+
+23. How do you scale performance testing in CI/CD?
+ans: Integrate tools like JMeter, Gatling or k6 Jenkins ,GitLab CI, or DevOps.
+Run the testing docker/Kubernetes environment.
+Trigger Smoke-level Performance tests for every build, run the full load tests in nightly/weekly builds.
+
+24.What is distributed performance testing?
+
+ans: Distributed performance testing is a method where load is generated from multiple machines controlled by a central controller/master to simulate a high number of user or requests concurrently . It helps scale testing beyond the capacity of a single machine and can simulate real worlds user distribution across regions.
+
+SET up: Use multiple Load generators (Master-Slaves)
+a single master coordinator test executions All machine have same JMeter version and test plan Open required same ports (Default port is 1099
+Disabled firewalls or configurations
+user the  command = JMeter-n-t test. jmx -Rslave1,Slave2 -1 result
+
+Challenges of distributed testing: Network latency between master and slaves
+Time synchronization across machines
+Resource Contention on shared salves
+Firewall and port configuration issue
+Data consistency (eg Parameter files csv)
+Result aggregation can be heavy on master node.
+Analyze results from Distributed tests?
+ans: Combine results files (.jtl in jmeter) from each slave node
+Use tools like: JMeter plugins (Merge Results , Summery report)
+SLA ;  Service Level Agreement (SLA) is a formalized agreement that defines the expected performance levels of an application or service, typically between a service provider and a customer
+
+25.Performance test lifecycle/Phages:-Requirement Gathering (Non functional )-Test plan- Test Execution-Test Result Analysis-Test reporting
+26.What is littles low?
+
+V=TPS*RT    Little's Law, in the context of performance testing, is a fundamental principle that relates the average number of users in a system, the arrival rate of requests, and the average time a request spends in the system.
+
+V=Virtual User
+TPS=Transaction per Second
+RT= Response time
+
+27; how do you change java heap allocated in to JMeter
+28: what is the difference between thread group ,setup thread group and tear down thread group?
+29: what is JSON?
+ans: JSON stands for Java script object Notation, used to Storing data and transporting data
+
+30: How do you calculate the number of virtual users required for a performance test?
+ans: No of user=Total requests per hour* Average response time(Sec)/3600
+
+
+JMeter accept only .jmxl file
+
+Q. How to create JMeter Script?
+1.Add Thread Group=1 user
+2.Sampler
+3.Listener
+4.Configuration
+How to run JMeter in command line?
+Step: Open command line==>Go JMeter bin folder==>Run the command ==>JMeter-n-ttest.jmx-l test.jtl
+
+1.Elements of JMeter:
+1-Threads
+2-Config Element
+3-Listener
+4-Timer
+5-Preprocessor
+6-Post Processor
+7-Assertions
+8-Test Fragment
+9-Non-Test-Element
+
+
+
+
+Q.Is it possible to run JMeter in GUI?
+Ans: Yes we can run JMeter in GUI
+there is an simple Command : JMeter-n-ttest.jmx-l test.jtl   jmeter-n-ttest.jmx-l test.jtl   JMeter-n-ttest-jmx-l test.jtl
+
+Search JMeter=>click in JMeter=>bin=>Apache JMeter Executable jar file
+
+non gui mode: Search= jmter-n-t jmx-l jtl    jmter-n-t test.jmx-r
+jmx=java management extenstion
+
+1.SPRINT PLANNING
+2.DAILY STANDUP OR DAILY SCRUM.
+3.SPRINT REVIEW
+4.SPRINT RETROSPECTIVE
+
+Full name=
+
+Performance Testing:
+Experienced Performance Tester with 5+ year Experience in Identifying, Performance Bottlenecks in application and providing Best solutions.
+Skilled in used tools like JMeter and LoadRunner.
+
+Test Case Write Steps:
+Date
+Test Case Id: A unique identifier assigned to every single condition in a test case.
+Module Name: Subject or title that defines the functionality of the test.
+Tester Name: The name of the person who would be carrying out the test.
+Test scenario: The test scenario provides a brief description to the tester, as in providing a small overview to know about what needs to be performed and the small features, and components of the test.
+Test Case Description: The condition required to be checked for a given software. for eg. Check if only numbers validation is working or not for an age input box.
+Test Steps: Steps to be performed for the checking of the condition.
+Prerequisite: The conditions required to be fulfilled before the start of the test process.
+Test Priority: As the name suggests gives priority to the test cases that had to be performed first, or are more important and that could be performed later.
+Test Data: The inputs to be taken while checking for the conditions.
+Test Expected Result: The output which should be expected at the end of the test.
+Test parameters: Parameters assigned to a particular test case.
+Actual Result: The output that is displayed at the end.
+Environment Information: The environment in which the test is being performed, such as the operating system, security information, the software name, software version, etc.
+Status: The status of tests such as pass, fail, NA, etc.
+Comments: Remarks on the test regarding the test for the betterment of the software.
+
+45. What is the difference between a Correlate graph and an overlay graph?
+
+jmeter -n -t test.jmx -l result.jtl -e -o report
+
+-n=non gui mode
+-t test.jmx=test data/plan file
+-l result.jtl= result log
+-e= generate HTML report
+-o report= output directory
+
+
+*)How do you design a performance test strategy?
+
+Answer:
+
+Understand business flows
+
+Identify critical transactions
+
+Define workload model
+
+Select test types (load, stress, soak)
+
+Prepare test data
+
+Execute, monitor, analyze, and report
+
+Q)Describe a real production performance issue you handled?
+
+Answer (Sample):
+During peak load, response time increased. Analysis showed DB connection pool exhaustion. After increasing pool size and optimizing queries, response time improved by 40%.
+
+Q) how to calculate Response Time in jmeter?
+Response Time = Response End Time – Request Start Time
+
+Concurrent Users
+Error Rate
+Latency== Time of first response byte – Request start time : Latency = 10:00:01.400 – 10:00:01.000 = 0.400 sec (400 ms)
+Response Time== Time when last byte is received – Time when request is sent
+Throughput==Total Number of Requests / Total Test Duration
+Transactions per Second (TPS)==Total Completed Transactions / Total Test Duration (seconds) 
+Bandwidth / Data Transfer==Total Bytes Transferred / Total Test Duration  (Total Data = 100 + 200 + 150 + 300 + 250 = 1000 KB, 1000 KB × 1024 = 1,024,000Bytes==>Bandwidth = 1,024,000 / 200 ≈ 5120 Bytes/sec ≈ 5 KB/sec)
+Connect Time==
+Hit Rate==Total Requests Sent / Total Test Duration  (Total HTTP requests sent = 1200, Test duration = 10 minutes = 600 seconds ==>Hit Rate = 1200 / 600 = 2 requests/sec)
+Percentiles
+SLA / Pass–Fail Status==If Max Response Time ≤ SLA Response Time → Pass , Else → Fail
+If Error % ≤ SLA Error % → Pass
+Else → Fail
+
+If Throughput ≥ SLA Throughput → Pass
+Else → Fail
+
+
+Selenium
+===========
+Selenium web driver
+WebDriver is a interface which is contains some variable ,some methods, Some static method
+Web driver(I)--Remote WebDriver(C)--Chrome Driver, Firefox Driver, Edge Driver
+Web driver is an API
+web driver is java component
+we driver is a Interface
+
+
+Candidate Name-Subrata Jena
+Contact Number-Date of Birth-
+Pan Number
+mail id ;
+total exp;
+Relevant EXP
+current ctc
+Expected ctc
+Holding any Offer
+Notice period
+Native Location
+Preferred Location
+Current Company name
+Direct payroll
+Payroll company name
+Holding PF Account;
+Attended any interview in past 3months
+
+Select Salary from employee Salary
+select count (*) from employee Salary
+where Project='P1';
+
+4. Write an SQL query to find the maximum, minimum, and average salary of the employees.
+Select Max(salary),Min (salary),Avg(salary), FROM Employee Salary;
+
+5. Write an SQL query to find the employee id whose salary lies in the range of 9000 and 15000.
+Select employee ID, Salary from employee salary
+where salary between 9000 and 1500;
+
+6. Write an SQL query to fetch those employees who live in Toronto and work under the manager with ManagerId – 321.
+Select EmployeeID ,city,ManagerID from employee details
+where city='Toronto'AND Mnager ID='321';
+
+
+Select EmpId,city,managerid from employee details
+where city=California or manager id=321;
+
+select  employee id, salary+ variable as total salary from employee salary
+
+10. Write an SQL query to fetch the employees whose name begins with any two characters, followed by a text “hn” and ends with any sequence of characters.
+
+select Fullname from employee details
+where Fullname like'--hn%;
+14. Write an SQL query to fetch the EmpIds that are present in both the tables –  ‘EmployeeDetails’ and ‘EmployeeSalary.
+
+sect empid from employe details
+where empidin (select empid from employee salary details);
+
+20. Write an SQL query to uppercase the name of the employee and lowercase the city values.
+
+slect Uppercase(Fullname),Lowercase(City) from employee details;
+
+33. Write an SQL query to fetch duplicate records from EmployeeDetails (without considering the primary key – EmpId).
+SELECT employee name, employee city,manager id count(*)
+from employee details
+Group by employee name, employee city,manager id having count(*)>1,
+
+Query to Find the 3rd Highest Salary:
+SELECT * FROM (
+  SELECT emp_name, emp_salary, DENSE_RANK() OVER (ORDER BY emp_salary DESC) AS r
+  FROM emp
+) AS subquery
+WHERE r = 3;
+
+select max salary from employee
+where salary<(select max salary form employee)
+
+Select Name ,salary from employee where Salary =(select Max (salary)from employee
+ WHERE salary <(select Max (Salary) from employee)).
+
+SLECT STR_TO_DATE('28-10-2024','%d-%m-%y')
+
+2. Retrieve duplicate records from a table
+Select Column name count(*) from Table name
+Group by column Name
+Having count(*)>1;
+
+find 5th highest salary
+Select * from (select Employee name ,Employee salasry, DENSE_RANK() OVER (Order by emp Salary desc) as r from emp
+as subquery
+where r=3;
+
+MANUAL:
+==============
+As a manual tester what type testing you have done
+Manual testers perform a variety of testing types to ensure software quality. Here are some of the types of testing they have done:
+Black Box Testing: Focuses on the software's input and output without knowing its internal structure. It's used for functional testing and can be applied to all levels of software testing, including unit, integration, system, and acceptance testing.
+1
+White Box Testing: Involves knowledge of the internal structure and implementation of the software. It's used for code optimization and finding hidden errors.
+1
+Gray Box Testing: Combines elements of both black and white box testing, allowing testers to have some knowledge of the internal workings of the software.
+1
+Acceptance Testing: Conducted by end-users to verify that the software meets their requirements and expectations.
+1
+System Testing: Ensures the entire software system works correctly together.
+1
+Integration Testing: Verifies that different software components work together as a unit.
+1
+Unit Testing: Tests individual units of code to ensure they work correctly independently.
+1
+Sanity Testing: Ensures the software is free of defects and works correctly under all conditions.
+1
+Smoke Testing: A quick, informal check to ensure the software is not broken.
+1
+Regression Testing: Verifies that new code does not break existing features.
+1
+User Interface (UI) Testing: Ensures the software's UI is functional and user-friendly.
+1
+Exploratory Testing: A hands-on approach to testing that allows testers to discover defects and explore the software's behavior.
+1
+
+Manual testers use these testing types to ensure that the software meets the required quality standards and provides a good user experience.
+
+
+what are the levels of software testing?
+Unit Testing
+Integration Testing
+System Testing
+Acceptance testing
+
+
+what is severity and priority
+Test cases for Image Upload
+Test cases for Rapido or ola
+Test cases for Teams
+role and responsibility
+what an issue u have raised and got appreciation from your TL
+Api testing process and status code
+Test cases writing format
+V and V module
+how to test your application with other country language
+Client find an Issue/Blocker what is your approach
+Developer is not accepting your Issue what you will do.
+
+JMETER OVERVIEW
+++++++++++++++++++++++++++++++
+
+1. Test Plan
+The root element of any JMeter script.
+Defines the overall test configuration, variables, and execution order.
+Can include multiple thread groups, logic controllers, and listeners.
+
+2. Thread Group Elements
+Thread groups define virtual users and how they execute requests.
+
+Thread Group – Basic group of virtual users; controls number of threads, ramp-up time, and loop count.
+Setup Thread Group – Runs before the main test execution (for pre-test setup).
+Teardown Thread Group – Runs after the main test execution (for cleanup).
+Concurrency Thread Group (from plugins) – Allows precise control over concurrent users.
+Arrivals Thread Group (from plugins) – Controls arrival rate of new users.
+
+3. Samplers
+Samplers send requests to a server or system under test.
+
+HTTP Request – Sends HTTP/HTTPS requests.
+FTP Request – Sends FTP commands.
+JDBC Request – Executes SQL queries.
+Java Request – Runs custom Java code.
+SOAP/XML-RPC Request – Sends SOAP or XML-RPC calls.
+JMS Publisher/Subscriber/Point-to-Point – Sends/receives JMS messages.
+SMTP Sampler – Sends emails.
+TCP Sampler – Sends raw TCP requests.
+OS Process Sampler – Executes system commands.
+BeanShell Sampler – Runs BeanShell scripts.
+JSR223 Sampler – Runs Groovy/Java scripts (preferred over BeanShell).
+Debug Sampler – Outputs variable and property values for debugging.
+
+4. Logic Controllers
+Control the flow and order of samplers.
+
+Simple Controller – Groups samplers logically.
+Loop Controller – Repeats child elements a set number of times.
+Once Only Controller – Runs child elements only once per thread.
+If Controller – Runs children based on a condition.
+While Controller – Loops while a condition is true.
+Switch Controller – Runs one child element based on index or name.
+Module Controller – References another part of the test plan.
+Include Controller – Includes an external test plan file.
+Transaction Controller – Measures the time taken for a group of requests.
+Throughput Controller – Runs children based on a percentage or throughput.
+Runtime Controller – Runs children for a set duration.
+Interleave Controller – Alternates between child elements.
+Random Controller – Runs children in random order.
+Random Order Controller – Executes all children in random order.
+
+5. Config Elements
+Provide default settings and variables for samplers.
+
+HTTP Request Defaults
+FTP Request Defaults
+JDBC Connection Configuration
+User Defined Variables
+CSV Data Set Config – Reads test data from CSV files.
+Counter
+Random Variable
+Keystore Configuration
+Login Config Element
+DNS Cache Manager
+HTTP Cache Manager
+HTTP Cookie Manager
+HTTP Header Manager
+HTTP Authorization Manager
+
+6. Pre-Processors
+Run before a sampler executes.
+
+User Parameters
+HTML Link Parser
+HTTP URL Re-writing Modifier
+BeanShell PreProcessor
+JSR223 PreProcessor
+Regular Expression Extractor (can also be a post-processor)
+XPath Extractor
+JSON Extractor
+Boundary Extractor
+
+7. Post-Processors
+Run after a sampler executes, usually to extract data.
+
+Regular Expression Extractor
+XPath Extractor
+JSON Extractor
+CSS/JQuery Extractor
+Result Status Action Handler
+Debug PostProcessor
+JSR223 PostProcessor
+BeanShell PostProcessor
+
+8. Assertions
+Validate that responses meet expectations.
+
+Response Assertion
+Duration Assertion
+Size Assertion
+XML Assertion
+XML Schema Assertion
+HTML Assertion
+MD5Hex Assertion
+XPath Assertion
+JSON Assertion
+Compare Assertion
+
+9. Timers
+Introduce delays between requests.
+
+Constant Timer
+Gaussian Random Timer
+Uniform Random Timer
+Constant Throughput Timer
+Synchronizing Timer
+Poisson Random Timer
+BeanShell Timer
+JSR223 Timer
+
+10. Listeners
+Collect and display test results.
+
+View Results Tree
+View Results in Table
+Summary Report
+Aggregate Report
+Aggregate Graph
+Graph Results
+Response Time Graph
+Backend Listener – Sends metrics to external systems (e.g., InfluxDB, Grafana).
+Simple Data Writer
+Mailer Visualizer
+
+11. Non-Test Elements
+Utility components not directly part of the test execution.
+
+Test Fragment – Reusable test plan section.
+Property Display
+Debug Sampler
+WorkBench (deprecated) – Temporary storage for test elements.
+✅ Tip:
+For real-world performance testing, you typically combine:
+
+Thread Groups (load setup)
+Samplers (requests)
+Config Elements (data/config)
+Assertions (validation)
+Listeners (reporting)
+
+*:- TPS=Transaction per second
+TPS=Total transaction/total time
+Example:
+3,000 transactions completed in 300 seconds
+Tps=3000/300=10 tps
+
+11)What is Response Time and how is it calculated?
+Response time=End time-Start Time
+Example:
+Request sent at 10:00:01
+Response received at 10:00:04
+Response Time = 3 seconds
+
+12)What is Average Response Time?
+Answer:
+It is the mean of all response times collected.
+Formula:
+Average Response Time = Sum of all response times / Number of samples
+Example:
+Response times: 2s, 3s, 5s
+Average = (2 + 3 + 5) / 3 = 3.33 sec
+
+13)How is Error Percentage calculated?
+Answer:
+Formula:
+Error % = (Number of failed requests / Total requests) × 100
+Example:
+Failed requests = 120
+Total requests = 6,000
+Error % = (120 / 6000) × 100 = 2%
+
+8. What is Latency in JMeter?
+Answer:
+Latency is the time taken for the first byte of the response to be received after sending the request.
+Difference:
+Latency → Server processing + network delay
+Response Time → Latency + data transfer time
+
+How do you calculate Concurrent Users?
+Answer:
+Concurrent users are users active at the same time.
+Formula:
+Concurrent Users = Arrival Rate × Average Response Time
+Example:
+Arrival rate = 5 users/sec
+Avg response time = 4 sec
+Concurrent Users = 5 × 4 = 20 users
+
+What is Hits Per Second?
+Answer:
+Hits/sec indicates how many HTTP requests hit the server per second.
+Formula:
+Hits/sec = Total hits / Test duration (seconds)
+Example:
+18,000 hits in 300 seconds
+Hits/sec = 60
+
+
+Siva Kumar Infosys Interviewer
+
+Jmeter in nongui mode
+
+jmeter-n-t test.jmx -l result.jtl -e -o report
+ n=non guimode
+t test.jmx = testdata file
+l result.jtl = reult logfile
+-e= generate HTML report
+-0= Store the output directory
+
+Q) Write a script for jmeter in performance testing?
+Example Script Structure
+Before opening JMeter, clarify:
+
+What is the application?
+
+Critical transactions?
+
+Protocol? (HTTP, HTTPS, SOAP, REST)
+
+Test data required?
+
+Authentication mechanism
+
+Test Plan
+└── Thread Group
+  ├── HTTP Request Defaults
+  ├── CSV Data Set Config
+  ├── Login (HTTP Request)
+  │  └── RegEx Extractor
+  ├── Search
+  ├── Add to Cart
+  ├── Checkout
+  ├── Constant Timer
+  └── Summary Report
+
+Q) what is correlation and how to handle in jmeter?
+
+Correlation is the process in which we can capture the dynamic value from the server response and passing in to the subsequent requests during performance testing.
+Dynamic value are : Session ID,Token ID,Transction ID,Order  ID etc
+Verify the Dynamic value with compare two consecutive request response,
+Then Use Regular Expression Extractor to handle Dynamicvalue : name="tocken"  value="(.+?)"
+Symbol	Meaning
+( )	Capturing group (stores matched value)
+.	Matches any single character
++	One or more occurrences
+?	Lazy (non-greedy) matching
+
+
+
+
+I want to join Gamut Infosystems because it is strongly focused on ERP solutions, especially in the real estate domain through Farvision ERP.
+
+I am interested in working on complex business workflows involving finance, HR, and project management modules, which will help me enhance my domain knowledge.
+
+Also, I see good learning opportunities in ERP-based testing, integration scenarios, and enterprise-level applications where I can contribute my experience in manual testing, API testing, and database validation.
+
