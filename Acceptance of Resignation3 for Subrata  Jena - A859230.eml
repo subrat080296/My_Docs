@@ -1,0 +1,138 @@
+Received: from GV2PR02MB9494.eurprd02.prod.outlook.com (2603:10a6:150:e1::16)
+ by AMBPR02MB11882.eurprd02.prod.outlook.com with HTTPS; Thu, 16 Jul 2026
+ 18:45:32 +0000
+Received: from AS4P190CA0036.EURP190.PROD.OUTLOOK.COM (2603:10a6:20b:5d1::7)
+ by GV2PR02MB9494.eurprd02.prod.outlook.com (2603:10a6:150:e1::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.223.12; Thu, 16 Jul
+ 2026 18:45:27 +0000
+Received: from AMS1EPF00000048.eurprd04.prod.outlook.com
+ (2603:10a6:20b:5d1:cafe::7) by AS4P190CA0036.outlook.office365.com
+ (2603:10a6:20b:5d1::7) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.223.12 via Frontend Transport; Thu,
+ 16 Jul 2026 18:45:27 +0000
+Authentication-Results: spf=pass (sender IP is 193.56.114.177)
+ smtp.mailfrom=atos.net; dkim=pass (signature was verified)
+ header.d=atos.net;dmarc=pass action=none header.from=ATOS.NET;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of atos.net designates
+ 193.56.114.177 as permitted sender) receiver=protection.outlook.com;
+ client-ip=193.56.114.177; helo=smarthost2.atos.net; pr=C
+Received: from smarthost2.atos.net (193.56.114.177) by
+ AMS1EPF00000048.mail.protection.outlook.com (10.167.16.132) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.245.5
+ via Frontend Transport; Thu, 16 Jul 2026 18:45:27 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=atos.net; i=@atos.net; q=dns/txt; s=mail2022;
+  t=1784227527; x=1815763527;
+  h=message-id:mime-version:from:to:cc:date:subject:
+   content-transfer-encoding;
+  bh=4JZRxMMTrCV9s+OOpUHvqSTh2AlV7O7HGFytBNpnNrU=;
+  b=AAP4XhHbkOc/UScM7M4gmAOS5xdiqU0m/uj55hV3j/BbLNZXmmvloFA1
+   BZD42jF5oESCtprJknPYRS1TRAW3z/31oOxaDHu7H2L1QSJWUH3BITd3F
+   h/FVVKhxzPE68s7x9sHM0IB1cIvJmYV6gi1Cc2WXjYBCTvb9zmMgJPBDg
+   Bm6cEfINdSV0/uzBOHfe72l28nkpmVtAqiEU9Wjc4S4C77qDFArKjHfc7
+   wUsqZxkNXQm8vpy2P97y4B+tjhpFIsiuazqs08JjMUMkPmB8GYd+gSmPn
+   FxYtPsB9hu3q4mu3a/5a3sF8oczfoo74mgukCEt4+KYxJdapRhfbXwlun
+   g==;
+X-CSE-ConnectionGUID: l3cWfmQcSp+WLn7lXUgrzQ==
+X-CSE-MsgGUID: SCk2futXQhSB38gFMQ8Lvw==
+X-IronPort-AV: E=Sophos;i="6.25,167,1779141600"; 
+   d="scan'208,217";a="865657431"
+X-MGA-submission: =?us-ascii?q?MDGlufYNkW8DWPJeBbqjWzo2abqNDZmkP9zls3?=
+ =?us-ascii?q?kNZ8QIATaewXIzfmV+XpzDtSUS+NaavJJdOIV3spiLPG4vbzupeHVFYJ?=
+ =?us-ascii?q?9Dy5WPQJ/LdM0vPPRBMAtxtg7Ne11KKbmu/BquicM4sGB6H842e+TYqv?=
+ =?us-ascii?q?X6?=
+Received: from mail2-ext.my-it-solutions.net ([217.115.65.13])
+  by smarthost2.atos.net with ESMTP/TLS/TLS_AES_256_GCM_SHA384; 16 Jul 2026 20:45:27 +0200
+Received: from mail2-int.my-it-solutions.net ([10.92.32.13])
+	by mail2-ext.my-it-solutions.net (8.15.2/8.15.2) with ESMTPS id 66GIjQNr3793994
+	(version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384 bits=256 verify=OK);
+	Thu, 16 Jul 2026 20:45:26 +0200
+Received: from GITITPPRDAS31 ([10.79.164.57])
+	by mail2-int.my-it-solutions.net (8.15.2/8.15.2) with ESMTP id 66GIjQpg4113747;
+	Thu, 16 Jul 2026 20:45:26 +0200
+Message-Id: <202607161845.66GIjQpg4113747@mail2-int.my-it-solutions.net>
+From: ITAP.TECH.EXTERNAL@ATOS.NET
+To: SUBRATA.JENA@ATOS.NET
+Cc: TRISHA.NANDI@ATOS.NET, SANGEETA.BOSE@ATOS.NET
+Date: 17 Jul 2026 00:15:26 +0530
+Subject: Acceptance of Resignation for Subrata  Jena - A859230
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+Return-Path: ITAP.TECH.EXTERNAL@atos.net
+X-MS-Exchange-Organization-ExpirationStartTime: 16 Jul 2026 18:45:27.1321
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: dff804ce-b97f-483e-a75c-08dee36a673d
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 33440fc6-b7c7-412c-bb73-0e70b0198d5a:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AMS1EPF00000048:EE_|GV2PR02MB9494:EE_|AMBPR02MB11882:EE_
+X-MS-Exchange-Organization-AuthSource: AMS1EPF00000048.eurprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: dff804ce-b97f-483e-a75c-08dee36a673d
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-External-Disclaimer: false
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;ARA:13230040|704161311799003|18003699003|5063699009|11063799006|5023799004|6133799003|8096899003|10067099003|19002099009|55112099003|57112099003|16102099003;
+X-Forefront-Antispam-Report: CIP:193.56.114.177;CTRY:FR;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKN;H:smarthost2.atos.net;PTR:smtppost.atos.net;CAT:NONE;SFS:(13230040)(704161311799003)(18003699003)(5063699009)(11063799006)(5023799004)(6133799003)(8096899003)(10067099003)(19002099009)(55112099003)(57112099003)(16102099003);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Jul 2026 18:45:27.0005
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: dff804ce-b97f-483e-a75c-08dee36a673d
+X-MS-Exchange-CrossTenant-Id: 33440fc6-b7c7-412c-bb73-0e70b0198d5a
+X-MS-Exchange-CrossTenant-AuthSource: AMS1EPF00000048.eurprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: GV2PR02MB9494
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:05.5525956
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0223.005
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(930201)(20251009189)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?+IVqcSDjSm4UOyZM7kr0pFj+XuSI+u8U0B781hPFlrK2L/RYtrDXhm077FOj?=
+ =?us-ascii?Q?dNx5J7nwV9AfCZVnNssWoIdPKWY30T3d8NkofLgK+hfH3TZQIz6wKJxXTLCE?=
+ =?us-ascii?Q?AOlW3Uzid93nz594YzkUPbMufmaGd8O6zE/IEihBDQDzxr40CWvZDwkDwPB2?=
+ =?us-ascii?Q?A86zXkwZepWZld1QTBkNIdM66BKPWmSn7zsJkQp82NcmsrcF0Eydy+NTG8pa?=
+ =?us-ascii?Q?aDFl0qLrHqNg7zxSxhpmPFeWj6PHGscOpUxbMsyT1hL2vCBAHwfeWRP7WgDV?=
+ =?us-ascii?Q?W6LWF/MzXrPTQU+v+/Tlj4nVibdAqHcGsjIpzL6de6xT+5yh2A2Alk/rIymu?=
+ =?us-ascii?Q?AGZDdL+WwPWDs99osTgDFvfjbs8y3Pz/FrZn+TEwi4XMSW0MrW3DnCeUfSo3?=
+ =?us-ascii?Q?Lcmp3c7cqR2QWN5xBWU2+3M2QdVV4E4H/sNnkbQbNCuRo54u/wc84EbseudR?=
+ =?us-ascii?Q?TOE+Dd5qUg/EYrgLa2lM1I2o46A7VeF1qc/akctmsd7YXz8xhnPDfQdemnC+?=
+ =?us-ascii?Q?ZDVxVOGO/LqQqe8w+3Su1QSUwudGJQoWt4RWyHLQfpuP3ZBmEPRZZP2ITty7?=
+ =?us-ascii?Q?55URzXjPPYT/XuK6ErDjtABBiOovKq9DEsOmYQ/GHIjORhu0JogDHd+VlFP3?=
+ =?us-ascii?Q?i7FgJUyfcwVXRAfBYNh1COlPWqSv+bPJJWX1iylYlxrhpv4fWKoO8ixmReVz?=
+ =?us-ascii?Q?Txlkt/K78NU/t7ldOJwX+t34CLp80zrKYHHBXEuHgDPPFRyQNh+aJup4bzpv?=
+ =?us-ascii?Q?SmBRnfdBEbUwRgu0yEUIDlx4kierErF1iaD6UHkP0WYP9+/3RxO4qKkDJsSV?=
+ =?us-ascii?Q?Bz/rHUCvoax39FWUgkkMpSe+4Y38CpgbSckUfwiuD+bkE3iXa10iY0g5ny5e?=
+ =?us-ascii?Q?lEtI/wit9xd6/zEbl1aShmsXYdmMs34bIYhn3aMa+uuRdI7AmJlMfMcj71jk?=
+ =?us-ascii?Q?kqjs6gJsFxebU1aAiy0bkjo2tlPuIJiM90V9X39JGjLedAwY0Hs9BIw7XbwU?=
+ =?us-ascii?Q?oEbwdS4ZyUj9OSj5soMma/6CvmmMm4H/55j2etqfVqDdiftoDgXNQ/dLtFwL?=
+ =?us-ascii?Q?G0HWesxqTk1TZOQxdER2Mr8dgFOg8v7yyxSIMeRH3iJpxRWnhslbLSmD3axO?=
+ =?us-ascii?Q?Tr7CupYTl4NuPx2NdnOclfEdAykH3IOa6xANeoe0zenIRoWF1DH73IaZu0+W?=
+ =?us-ascii?Q?hXOsJfFSunf+23GGTUtABAD0WKAINePOj+sJqxhkVPxiTJNetSBhE0ylDXow?=
+ =?us-ascii?Q?k6QX7lxJt6nHizIq1rU6MStjIeyZmIu8BUCOpv2/9kRxXBWeEqzSqGwEy4/E?=
+ =?us-ascii?Q?hokN1VUo91SK3Uo5NszlSM1RpdOBPVeTh0DxQIKEJNwljG6PdQ195A6S1vx7?=
+ =?us-ascii?Q?+iHrix4ws/S+R3UrijrR3sTbdjeNi25fT6bZFtSajpFSNEZqtFBiVFtAWexg?=
+ =?us-ascii?Q?vKzKWOWaALY=3D?=
+MIME-Version: 1.0
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+></head>
+<body><table style=3D"font-family:Calibri;"><tr><td colspan=3D"2"></td></tr=
+><tr><td colspan=3D"2" height=3D"1px"></td></tr><tr><td colspan=3D"2">Dear =
+Subrata  Jena,<br>Resignation of your services has been accepted today 17-J=
+ul-2026.<br><br><div><br></div><br><br><table border=3D"1"><tr><td>Line Man=
+ager</td><td> Trisha NANDI</td></tr><tr><td>Project Manager</td><td></td></=
+tr><tr><td>HRBP</td><td>BOSE, Sangeeta</td></tr><tr><td>Accepted Last Worki=
+ng Day</td><td>21-Jul-2026</td></tr></table></body></html><br><br><br>Pleas=
+e check the Exit Guidelines for completing the formalities.<div><br><br></d=
+iv><br><br></td></tr><tr><td colspan=3D"2">&nbsp;</td></tr><tr><td colspan=
+=3D"2">&nbsp;</td></tr><tr><td colspan=3D"2">This is a system generated mai=
+l and requires no signature.</td></tr></table></body></html>
+
